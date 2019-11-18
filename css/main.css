@@ -2298,12 +2298,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/header-bg-1.jpg) center;
   background-size: cover;
 }
 
 .banner-area .overlay-bg {
-  opacity: .95;
+  opacity: .85;
 }
 
 .banner-content {
@@ -2562,7 +2562,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .post-list .cat-list li {
   text-align: center;
   margin-right: 10px;
-  width: 100px;
+  width: 160px;
   display: inline-block;
   background-color: #fff;
   border: 1px solid #eee;
@@ -2570,7 +2570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  padding: 5px 10px;
+    padding: 5px 10px 5px 5px;
 }
 
 .post-list .cat-list li a {
@@ -3273,6 +3273,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
   z-index: 9999;
   cursor: pointer;
+}
+
+.footer-area .primary-btn:hover {
+    background-color: #ad9aff
 }
 
 @media (max-width: 960px) {
