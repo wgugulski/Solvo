@@ -2855,7 +2855,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .callto-action-area .primary-btn {
   margin: 10px;
-  text-transform: capitalize;
+  text-transform: none;
   border-radius: 0;
   background-color: #49e4fa;
   color: #fff;
