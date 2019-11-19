@@ -1,0 +1,34 @@
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="log_in.css" />
+	<link rel="stylesheet" type="text/css" href="elo/css/fontello.css" />
+	<script src="log_in.js"></script>
+	
+</head>
+<body>
+	
+	<div class="pasek">
+		<h1>Solvo</h1>
+		<a id="a" href="#"> Zarejestruj się </a>
+		<a href="#"><img src="img/icon.png"></a>
+	</div>
+	<div id="okno">
+		<form action="zaloguj.php" method="post">
+			<h3>Login</h3>
+			<input type="text" name="email1" id="email" placeholder="*Email"  onBlur="this.placeholder='*Email', check_email(this)" onFocus="this.placeholder='',validate_email()" required size="50"/>
+			<div id="info"></div>
+			<input type="password" name="password" id="password" placeholder="*Hasło" onfocus="this.placeholder='', validate_password()" onblur="this.placeholder='*Hasło', check_password(this)"  required size="50"/>	
+			<div id="info1"></div>
+			<input type="submit" value="Zaloguj się"/>
+		</form>
+	</div>
+	
+	<div class="footer">
+		<div class="socials">
+		<div class="fb"><a href="#"><i class="icon-facebook"></i></a></div>
+		<div class="tw"><a href="#"><i class="icon-twitter"></i></a></div>
+		<div class="yt"><a href="#"><i class="icon-youtube-play"></i></a></div>
+		<div class="in"><a href="#"><i class="icon-instagram"></i></a></div>
+		</div>
+	</div>
+</body>
