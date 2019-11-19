@@ -46,6 +46,19 @@ h3{
 	font-family:"Courier New";
 }
 
+.noStyle {
+	color: black;
+	letter-spacing: 4px;
+	text-align: center;
+	font-size: 55px;
+	margin-top: 0;
+	transition: letter-spacing 1.8s ease-in-out;
+	-webkit-transition:  letter-spacing 1.8s ease-in-out;
+	-moz-transition:  letter-spacing 1.8s ease-in-out;
+	display: block;
+	font-family:"Courier New";
+}
+
 #a{
 	position: absolute;
 	letter-spacing: 4px;
