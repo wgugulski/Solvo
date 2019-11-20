@@ -1932,11 +1932,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 6px 20px !important;
   text-transform: uppercase;
+  border: 1px solid #49e4fa;
 }
 
 .ticker-btn:hover {
-  background: rgba(73, 228, 250, 0.2);
+  background: transparent;
   color: #49e4fa;
+  border: 1px solid #49e4fa;
 }
 
 @media (max-width: 960px) {
